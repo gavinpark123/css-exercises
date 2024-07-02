@@ -24,3 +24,37 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+/* My Solution */
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between
+}
+a{
+  color: #666;
+  text-decoration: none;
+}
+ul{
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.header, .footer{
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+}
+.footer{
+  background: #eee;
+}
+.left-links, .right-links {
+  gap: 8px;
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px
+}
